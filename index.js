@@ -11,7 +11,7 @@ app.use(cors());
 // API Endpoint
 app.get("/", (req, res) => {
     res.json({
-        email: "johnwilliammuga.com",
+        email: "johnwilliammuga@gmail.com",
         current_datetime: new Date().toISOString(),
         github_url: "https://github.com/Princewilliamske/hng12-public-api",
     });
